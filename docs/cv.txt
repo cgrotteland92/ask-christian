@@ -1,0 +1,48 @@
+CHRISTIAN GRØTTELAND
+Myklamarka 13, 4314 Sandnes
+Telefon: +47 452 62 478
+Email: cgrotteland@gmail.com
+Portfolio: https://cgrottelandportfolio.netlify.app/
+
+OM MEG
+Jeg er en effektiv selvstendig arbeider som også trives i teamarbeid. Empatisk med evne til å ta hensyn til andre og tydelig kommunisere tanker og ideer. Målorientert med en praktisk tilnærming til problemløsning, samtidig som jeg forblir positiv og engasjert.
+
+TEKNISKE FERDIGHETER
+- TypeScript
+- React
+- Figma
+- C#
+- .NET
+- Python
+
+SPRÅK
+- Norsk (morsmål)
+- Engelsk (flytende)
+
+ARBEIDSERFARING
+
+Jærstil AS - Maler (2025)
+Malerarbeid på næringsbygg, rehab- og nybyggprosjekter.
+
+Malermester Peder E Vik AS - Maler (2013 - 2025)
+Utføre profesjonelt malerarbeid på næringsbygg, rehab og nybyggprosjekter med fagbrev som grunnlag.
+Lede og koordinere arbeid som bas på større prosjekter.
+Veiledning og oppfølging av lærlinger.
+Kundekontakt i rehabiliteringsprosjekter.
+Tillitsvalgt for kollegaer.
+
+Apply Oil & Gas - Innkjøper (2011 - 2013)
+Administrere innkjøpsprosesser og bestilling av teknisk utstyr og komponenter fra nasjonale og internasjonale leverandører til olje- og gassprosjekter både onshore og offshore.
+
+Videoverden Sandnes - Butikkmedarbeider (2007 - 2011)
+Vareregistrering og påfyll av varer og filmer. Bruk av butikkens datasystem for registrering av nye varer og lageroppdatering.
+
+UTDANNING
+
+Noroff School of Technology and Digital Media - Front-End (2024 - 2025)
+Utvikle moderne webapplikasjoner med React, TypeScript og JavaScript. Implementere komponentbasert arkitektur med fokus på ytelse og brukeropplevelse. Håndtere state management med React Query, versjonskontroll med Git, og CI/CD-pipelines med GitHub Actions. Designe prototyper i Figma og oversette design til funksjonelle løsninger.
+
+Microsoft via Coursera - Back-End Development with .NET (2025 - 2026)
+Sertifikat bestående av kurs innen C#, .NET, ASP.NET Core, SQL, Azure.
+
+Bryne Videregående Skole - Idrettsfag (2008 - 2011)

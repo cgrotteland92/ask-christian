@@ -6,12 +6,9 @@ import chromadb
 load_dotenv()
 
 # Load the PDF
-def load_pdf(path):
-    reader = PdfReader(path)
-    text = ""
-    for page in reader.pages:
-        text += page.extract_text()
-        return text
+def load_txt(path):
+    with open(path, "r", encoding="utf-8") as f:
+        return f.read()
     
 # Split text into chunks
 def chunk_text(text, chunk_size=500, overlap=50):
@@ -26,7 +23,7 @@ def chunk_text(text, chunk_size=500, overlap=50):
 # Save chunks to ChromaDB
 def ingest ():
     print("Ingesting...")
-    text = load_pdf("docs/CV_Christian-Grøtteland-NO.pdf")
+    text = load_txt("docs/cv.txt")
 
     print("Chunking text...")
     chunks = chunk_text(text)
@@ -34,7 +31,7 @@ def ingest ():
     
     print("Storing in ChromaDB...")
     client = chromadb.PersistentClient(path="chroma_db")
-    collection = client.get_or_create_collection(name="cv")
+    collection = client.get_or_create_collection(name="cv-data")
     
     collection.add(
         documents=chunks,
