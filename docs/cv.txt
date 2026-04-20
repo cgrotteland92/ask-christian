@@ -1,48 +1,101 @@
 CHRISTIAN GRØTTELAND
-Myklamarka 13, 4314 Sandnes
-Telefon: +47 452 62 478
+Born: 1992, Stavanger, Norway
+Currently living in Sandnes (Stavanger area)
 Email: cgrotteland@gmail.com
 Portfolio: https://cgrottelandportfolio.netlify.app/
+GitHub: https://github.com/cgrotteland92
 
 OM MEG
-Jeg er en effektiv selvstendig arbeider som også trives i teamarbeid. Empatisk med evne til å ta hensyn til andre og tydelig kommunisere tanker og ideer. Målorientert med en praktisk tilnærming til problemløsning, samtidig som jeg forblir positiv og engasjert.
+Christian er en utvikler med en uvanlig bakgrunn. Etter 14 år i byggebransjen
+som maler, bas og prosjektleder valgte han å gjøre et bevisst karriereskifte 
+inn i teknologi og IT. Han fullførte frontend-utdanning ved Noroff og 
+jobber med Microsoft-sertifiseringer innen .NET og C# mens han jobbet fulltid — noe 
+som sier mye om driv og gjennomføringsevne.
+
+Han kombinerer sterk teknisk nysgjerrighet med praktisk problemløsning og 
+gode kommunikasjonsevner fra år med kundekontakt og teamledelse. Han trives 
+både selvstendig og i team, og er spesielt interessert i AI-integrasjon, 
+agentiske systemer og hvordan AI kan brukes til å skape reell verdi i 
+utviklingsprosesser.
 
 TEKNISKE FERDIGHETER
 - TypeScript
 - React
-- Figma
+- Python
 - C#
 - .NET
-- Python
+- ASP.NET Core
+- SQL
+- Figma
+- Git / GitHub
+- CI/CD med GitHub Actions
+- LangChain
+- ChromaDB / vektordatabaser
+- Anthropic API
+- RAG (Retrieval-Augmented Generation)
 
 SPRÅK
 - Norsk (morsmål)
 - Engelsk (flytende)
+
+PROSJEKTER
+
+ask-christian (2026)
+Et RAG-system bygget over egen CV og portefølje ved hjelp av Python, 
+Anthropic API og ChromaDB. Systemet chunker og embedder dokumenter i en 
+vektordatabase og bruker retrieval-augmented generation for å svare på 
+spørsmål om Christian. Har et Streamlit-grensesnitt og er deployed på 
+Streamlit Cloud.
+GitHub: https://github.com/cgrotteland92/ask-christian
+
+claude-code (2026)
+En notatapp bygget med Claude Code ved hjelp av agenter og skills. 
+Prosjektet utforsker agentisk AI og hvordan autonome agenter kan brukes 
+til å løse praktiske oppgaver.
+GitHub: https://github.com/cgrotteland92/claude-code
+
+Jærstil AS - Nettside (2025)
+Profesjonell nettside bygget for et norsk malerselskap. Bygget med React 
+og TypeScript, Tailwind CSS, komponentbibliotek, bildegalleri med 
+før/etter-funksjonalitet og Google Maps-integrasjon.
+Portfolio: https://cgrottelandportfolio.netlify.app/
 
 ARBEIDSERFARING
 
 Jærstil AS - Maler (2025)
 Malerarbeid på næringsbygg, rehab- og nybyggprosjekter.
 
-Malermester Peder E Vik AS - Maler (2013 - 2025)
-Utføre profesjonelt malerarbeid på næringsbygg, rehab og nybyggprosjekter med fagbrev som grunnlag.
-Lede og koordinere arbeid som bas på større prosjekter.
-Veiledning og oppfølging av lærlinger.
-Kundekontakt i rehabiliteringsprosjekter.
-Tillitsvalgt for kollegaer.
+Malermester Peder E Vik AS - Maler / Bas / Prosjektleder (2013 - 2025)
+Utføre profesjonelt malerarbeid på næringsbygg, rehab og nybyggprosjekter 
+med fagbrev som grunnlag. Lede og koordinere arbeid som bas på større 
+prosjekter. Veiledning og oppfølging av lærlinger. Kundekontakt i 
+rehabiliteringsprosjekter. Tillitsvalgt for kollegaer.
 
 Apply Oil & Gas - Innkjøper (2011 - 2013)
-Administrere innkjøpsprosesser og bestilling av teknisk utstyr og komponenter fra nasjonale og internasjonale leverandører til olje- og gassprosjekter både onshore og offshore.
+Administrere innkjøpsprosesser og bestilling av teknisk utstyr og 
+komponenter fra nasjonale og internasjonale leverandører til olje- og 
+gassprosjekter både onshore og offshore.
 
 Videoverden Sandnes - Butikkmedarbeider (2007 - 2011)
-Vareregistrering og påfyll av varer og filmer. Bruk av butikkens datasystem for registrering av nye varer og lageroppdatering.
+Vareregistrering og påfyll av varer og filmer. Bruk av butikkens 
+datasystem for registrering av nye varer og lageroppdatering.
 
 UTDANNING
 
-Noroff School of Technology and Digital Media - Front-End (2024 - 2025)
-Utvikle moderne webapplikasjoner med React, TypeScript og JavaScript. Implementere komponentbasert arkitektur med fokus på ytelse og brukeropplevelse. Håndtere state management med React Query, versjonskontroll med Git, og CI/CD-pipelines med GitHub Actions. Designe prototyper i Figma og oversette design til funksjonelle løsninger.
+Noroff School of Technology and Digital Media - Front-End (2024 - 2025) - Fullført
+Utvikle moderne webapplikasjoner med React, TypeScript og JavaScript. 
+Implementere komponentbasert arkitektur med fokus på ytelse og 
+brukeropplevelse. Håndtere state management med React Query, 
+versjonskontroll med Git, og CI/CD-pipelines med GitHub Actions. 
+Designe prototyper i Figma og oversette design til funksjonelle løsninger.
 
-Microsoft via Coursera - Back-End Development with .NET (2025 - 2026)
+Microsoft via Coursera - Back-End Development with .NET (2025 - 2026) - Fullført
 Sertifikat bestående av kurs innen C#, .NET, ASP.NET Core, SQL, Azure.
 
 Bryne Videregående Skole - Idrettsfag (2008 - 2011)
+
+HVA CHRISTIAN SØKER
+Christian er på jakt etter en rolle innen AI-integrasjon, frontend-utvikling 
+eller IT-konsulting — helst i Stavanger-området. Han er spesielt interessert 
+i stillinger hvor AI brukes praktisk og hvor det er rom for faglig utvikling 
+innen agentiske systemer og moderne utviklingsprosesser.
