@@ -1,10 +1,11 @@
 import os
+import streamlit as st
 from dotenv import load_dotenv
 import chromadb
 import anthropic
 
 load_dotenv()
-api_key = os.environ.get("ANTHROPIC_API_KEY")
+api_key = st.secrets.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_API_KEY")
 client = anthropic.Anthropic(api_key=api_key)
 
 def get_or_create_collection():
