@@ -7,12 +7,12 @@ load_dotenv()
 
 client = anthropic.Anthropic()
 
-def get_collection():
+def get_or_create_collection():
     chroma_client = chromadb.PersistentClient(path="chroma_db")
-    return chroma_client.get_collection(name="cv-data")
+    return chroma_client.get_or_create_collection(name="cv-data")
 
 def ask(question):
-    collection = get_collection()
+    collection = get_or_create_collection()
     
     results = collection.query(
         query_texts=[question],

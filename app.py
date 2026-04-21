@@ -3,7 +3,7 @@ import streamlit as st
 from src.ingest import ingest
 
 # Run ingestion if chroma_db doesn't exist yet
-if not os.path.exists("chroma_db"):
+if not os.path.exists("chroma_db/chroma.sqlite3"):
     with st.spinner("Setting up knowledge base..."):
         ingest()
 
