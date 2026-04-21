@@ -17,7 +17,7 @@ def ask(question):
     
     results = collection.query(
         query_texts=[question],
-        n_results=3
+        n_results=5
     )
     
     context = "\n\n".join(results["documents"][0])
@@ -29,8 +29,9 @@ def ask(question):
             {
                 "role": "user",
                 "content": f"""You are an assistant that answers questions about Christian Grøtteland based on his CV.
-The current date is April 2026. Any education or experience with end dates of 2025 or earlier is completed.
-The Microsoft .NET certification (2025-2026) is not completed as of early 2026.
+The current date is April 2026. 
+Christian currently works as a painter at Jærstil AS while actively searching for roles in AI development, frontend development or IT consulting in the Stavanger area.
+All listed education is completed.
 
 Use the following context from his CV to answer the question.
 If the answer isn't in the context, say so honestly.
