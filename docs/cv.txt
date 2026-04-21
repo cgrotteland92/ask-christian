@@ -40,6 +40,13 @@ SPRÅK
 
 PROSJEKTER
 
+ai-code-reviewer (2026)
+Et AI-drevet kodegjennomverktøy bygget med Python, Anthropic API og Streamlit.
+Analyserer kode på tvers av fire kategorier: bugs, sikkerhet, kodekvalitet og 
+forbedringer — med alvorlighetsgrader (HIGH/MEDIUM/LOW). Støtter 13 programmeringsspråk
+og bruker prompt caching for raskere og billigere API-kall.
+GitHub: https://github.com/cgrotteland92/ai-code-reviewer
+
 ask-christian (2026)
 Et RAG-system bygget over egen CV og portefølje ved hjelp av Python, 
 Anthropic API og ChromaDB. Systemet chunker og embedder dokumenter i en 
