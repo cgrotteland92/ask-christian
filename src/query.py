@@ -4,8 +4,8 @@ import chromadb
 import anthropic
 
 load_dotenv()
-
-client = anthropic.Anthropic()
+api_key = os.environ.get("ANTHROPIC_API_KEY")
+client = anthropic.Anthropic(api_key=api_key)
 
 def get_or_create_collection():
     chroma_client = chromadb.PersistentClient(path="chroma_db")
