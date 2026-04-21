@@ -1,5 +1,12 @@
+import os
 import streamlit as st
+from src.ingest import ingest
 from src.query import ask
+
+# Run ingestion if chroma_db doesn't exist yet
+if not os.path.exists("chroma_db"):
+    with st.spinner("Setting up knowledge base..."):
+        ingest()
 
 st.set_page_config(page_title="Ask Christian", page_icon="🤖")
 
