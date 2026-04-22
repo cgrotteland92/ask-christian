@@ -4,7 +4,7 @@ An AI-powered chatbot built over my own CV and portfolio using
 Retrieval-Augmented Generation (RAG). Ask it anything about my
 skills, experience, projects or background.
 
-**Live demo:** [link here once deployed]
+**Live demo:** [ask-christian.streamlit.app](https://ask-christian-5hwn4cewxueoboehvjud77.streamlit.app/)
 
 ---
 
