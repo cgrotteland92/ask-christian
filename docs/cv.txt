@@ -40,10 +40,10 @@ SPRÅK
 
 PROSJEKTER
 
-ai-code-reviewer (2026)
-Et AI-drevet kodegjennomverktøy bygget med Python, Anthropic API og Streamlit.
-Analyserer kode på tvers av fire kategorier: bugs, sikkerhet, kodekvalitet og 
-forbedringer — med alvorlighetsgrader (HIGH/MEDIUM/LOW). Støtter 13 programmeringsspråk
+ai-code-reviewer (2026) - Under utvikling
+Et AI-drevet kodegjennomgangsverktøy bygget med Python, Anthropic API og Streamlit.
+Analyserer kode på tvers av fire kategorier: bugs, sikkerhet, kodekvalitet og
+forbedringer, med alvorlighetsgrader (HIGH/MEDIUM/LOW). Støtter 13 programmeringsspråk
 og bruker prompt caching for raskere og billigere API-kall.
 GitHub: https://github.com/cgrotteland92/ai-code-reviewer
 
