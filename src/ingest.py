@@ -30,15 +30,16 @@ def ingest ():
     print(f"Created {len(chunks)} chunks")
     
     print("Storing in ChromaDB...")
-    client = chromadb.PersistentClient(path="chroma_db")
+    client = chromadb.EphemeralClient()
     collection = client.get_or_create_collection(name="cv-data")
-    
+
     collection.add(
         documents=chunks,
         ids=[f"chunk_{i}" for i in range(len(chunks))]
     )
-    
+
     print("Done! CV ingested successfully.")
+    return collection
 
 if __name__ == "__main__":
     ingest()

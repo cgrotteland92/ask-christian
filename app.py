@@ -2,11 +2,9 @@ import os
 import streamlit as st
 from src.ingest import ingest
 
-# Run ingestion if chroma_db doesn't exist yet
-if "ingested" not in st.session_state:
+if "collection" not in st.session_state:
     with st.spinner("Setting up knowledge base..."):
-        ingest()
-    st.session_state.ingested = True
+        st.session_state.collection = ingest()
 
 from src.query import ask
 
@@ -29,7 +27,7 @@ if prompt := st.chat_input("Ask something about Christian..."):
 
     with st.chat_message("assistant"):
         with st.spinner("Thinking..."):
-            response = ask(prompt)
+            response = ask(prompt, st.session_state.collection)
         st.markdown(response)
 
     st.session_state.messages.append({"role": "assistant", "content": response})
